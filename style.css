@@ -3,5 +3,26 @@
     padding: 0;
 }
 body{
-    
+    font-family: sans-serif;
+    font-size: 17px;
+    color: yellow;
+
+}
+.login{
+    background-image: url(pics/sunset.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px 20px;
+}
+.login p{
+    font-size: 35px;
+    font-family: sans-serif;
+    line-height: 1.6;
+    color: crimson;
 }

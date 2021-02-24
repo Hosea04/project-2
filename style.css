@@ -2,11 +2,20 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh;
+    background-color: rgb(224, 115, 64);
+}
+.logo{
+    letter-spacing: 4px;
+    font-size: 24px;
+}
 body{
-    font-family: sans-serif;
-    font-size: 17px;
-    color: yellow;
-
+    font-family:sans-serif;
+    font-size:17px;
 }
 .login{
     background-image: url(pics/pexels.jpg);

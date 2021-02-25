@@ -9,9 +9,18 @@ nav{
     min-height: 10vh;
     background-color: rgb(224, 115, 64);
 }
+.nuv-links{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+.nuv-links a{
+    color: rgb(161, 202, 196);
+}
 .logo{
     letter-spacing: 4px;
     font-size: 24px;
+
 }
 body{
     font-family:sans-serif;
@@ -23,6 +32,7 @@ body{
     background-position: center;
     height: 750px;
     display: flex;
+    margin-top: 0;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -34,6 +44,9 @@ body{
     font-family: sans-serif;
     line-height: 1.6;
     color: rgb(46, 12, 19);
+}
+.login label[for="Day"]{
+    font-size: 30px;
 }
 .login input[class="day"]{
     border: 0;
